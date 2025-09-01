@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-background {
+    background: #ff4902 !important;
+}
+
+@media screen and (max-width: 768px) {
+.main-background {
+position:relative;
+}
+.headerpro
+ {
+    text-align: center;
+}
+.headerpro .mt-4.float-right.text-white {
+    float: none;
+    /* text-align: center; */
+}
+.headerpro ul.flex.flex-wrap.gap-2 {
+    align-items: center;
+    justify-content: center;
+}
+.grid.gap-x-6.gap-y-4.flex.items-center.justify-center.mt-1.card-box {
+    position: relative;
+}
+.flex.gap-2.card-flex {
+    flex-direction: column;
+}
+.card.basis-auto.p-4 {
+    text-align: center;
+}
+.card-box-bot{ width:100%;}
+.card-box-bot button {
+    margin: 10px 0 0;
+}
+.card-box-bot .search_input {
+    display: flex;
+    flex-direction: column;
+}
+.card-box span.surfacetext.text-white {
+    padding: 0 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    float: left;
+}
+span.surfacetext.text-white br {
+    display: none;
+}
+.product_name{
+	flex-direction: column;
+	align-items: baseline;
+}
+.website{
+    margin: 11px 0 0 0;
+}
+}
